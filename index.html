@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="navwrapper">
+        <div class="nav">
+          <div class="logo">
+            <a href="#">
+              <img
+                src="data:image/png;base64,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"
+                alt=""
+            /></a>
+          </div>
+          <a href="#" class="navbutton1">Clients &#x25BC;</a>
+          <a href="#" class="navbutton2">Solutions &#x25BC;</a>
+          <a href="#" class="navbutton3">Etudes de cas</a>
+          <a href="#" class="navbutton4">Guide</a>
+          <a href="#" class="navbutton5">Blog</a>
+        </div>
+        <a href="#" class="contact">&#8594;Contactez-nous</a>
+        <div class="banner">
+          <h1>Gestionnaires<br />de parking</h1>
+          <div style="font-size: 12px" class="bandes">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Aliquid,optio?Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Maxime, accusantium aliquid? Sed molestiae doloremque
+            <a href="#"><button id="pbutton">Contactez-nous</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="decou">
+        <h2>Lorem ipsum dolor sit Lorem.</h2>
+        <p style="font-size: 14px">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod,
+          corporis? Rem deserunt beatae ullam aliquid.
+        </p>
+        <button
+          style="background: white; color: #fe469c; border: 2px solid #fe469c"
+        >
+          Contactez-nous
+        </button>
+      </div>
+      <div class="flex">
+        <div class="phone">
+          <img
+            src="https://img.icons8.com/ios-filled/50/000000/push-notifications.png"
+          />
+        </div>
+        <h3>Flex</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum cum,
+          vitae vel fugit iure voluptatibus!
+        </p>
+        <a href="#">&#8594;En Savior Plus</a>
+      </div>
+      <div class="smart">
+        <div class="car">
+          <img
+            src="https://img.icons8.com/dusk/64/000000/traffic-jam.png"
+            height="40px"
+          />
+        </div>
+        <h3>Smart</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum cum,
+          vitae vel fugit iure voluptatibus!
+        </p>
+        <a href="#">&#8594;En Savior Plus</a>
+      </div>
+      <div class="share">
+        <div class="car1">
+          <img
+            src="https://img.icons8.com/dusk/64/000000/car.png"
+            height="50px"
+          />
+        </div>
+        <h3>Share</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum cum,
+          vitae vel fugit iure voluptatibus!
+        </p>
+        <a href="#">&#8594;En Savior Plus</a>
+      </div>
+      <div class="plugshare">
+        <div class="petrol">
+          <img
+            src="https://img.icons8.com/ios-filled/50/000000/gas-station.png"
+          />
+        </div>
+        <h3>Plug & Share</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum cum,
+          vitae vel fugit iure voluptatibus!
+        </p>
+        <a href="#">&#8594;En Savior Plus</a>
+      </div>
+    </div>
+    <div class="side">
+      <div class="iconset">
+        <div class="desc">
+          <h3>Icons Set</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
+            mollitia?
+          </p>
+        </div>
+        <div class="iconbox">
+          <div class="icons">
+            <img
+              src="https://img.icons8.com/ios-filled/50/000000/push-notifications.png"
+            />
+          </div>
+          <div class="icons">
+            <img
+              src="https://img.icons8.com/dusk/64/000000/traffic-jam.png"
+              height="40px"
+            />
+          </div>
+          <div class="icons">
+            <img
+              src="https://img.icons8.com/dusk/64/000000/car.png"
+              height="50px"
+            />
+          </div>
+          <div class="icons">
+            <img
+              src="https://img.icons8.com/ios-filled/50/000000/gas-station.png"
+            />
+          </div>
+          <div class="icons">
+            <img
+              src="https://img.icons8.com/dusk/64/000000/road.png"
+              height="50px"
+            />
+          </div>
+          <div class="icons">
+            <img
+              src="https://img.icons8.com/dusk/64/000000/social-network.png"
+              height="50px"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="testimonials">
+        <div class="tpics">
+          <div class="pic1"></div>
+          <div class="pic2"></div>
+          <div class="pic3"></div>
+          <div class="pic4"></div>
+          <div class="pic5"></div>
+          <a href="#">&#8594;</a>
+        </div>
+        <div class="twritten">
+          <h3>Testimonials</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+            nam architecto eveniet laudantium vel vero. Lorem ipsum, dolor sit
+            amet consectetur adipisicing elit. Reprehenderit, modi.
+          </p>
+        </div>
+      </div>
+      <div class="colorsystem">
+        <div class="cwritten">
+          <h3>Colors System</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
+            itaque non velit voluptatum tenetur dicta asperiores officia cum
+            quasi distinctio?
+          </p>
+        </div>
+        <div class="cpics">
+          <div class="pinkw">
+            <div class="pink"></div>
+            <span>Pink</span>
+          </div>
+          <div class="darkbluew">
+            <div class="darkblue"></div>
+            <span>Dark blue</span>
+          </div>
+          <div class="whitew">
+            <div class="white"></div>
+            <span>White</span>
+          </div>
+          <div class="yelloww">
+            <div class="yellow"></div>
+            <span>Yellow</span>
+          </div>
+          <div class="bluew">
+            <div class="blue"></div>
+            <span>Blue</span>
+          </div>
+          <div class="greenw">
+            <div class="green"></div>
+            <span>Green</span>
+          </div>
+        </div>
+      </div>
+      <div class="basicgro">
+        <div class="basicwritten">
+          <h1>Basic</h1>
+          <h3>Grotesque</h3>
+        </div>
+        <div class="lettertable">
+          <table>
+            <caption style="text-align: left; font-size: 8px">
+              UPPERCASE
+            </caption>
+            <tr>
+              <td>A</td>
+              <td>B</td>
+              <td>C</td>
+              <td>D</td>
+              <td>E</td>
+              <td>F</td>
+              <td>G</td>
+              <td>H</td>
+              <td>I</td>
+              <td>J</td>
+            </tr>
+            <tr>
+              <td>K</td>
+              <td>L</td>
+              <td>M</td>
+              <td>N</td>
+              <td>O</td>
+              <td>P</td>
+              <td>Q</td>
+              <td>R</td>
+              <td>S</td>
+              <td>T</td>
+            </tr>
+            <tr>
+              <td>U</td>
+              <td>V</td>
+              <td>W</td>
+              <td>X</td>
+              <td>Y</td>
+              <td>Z</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
