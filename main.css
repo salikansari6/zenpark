@@ -509,3 +509,14 @@ table {
   position: relative;
   right: 15px;
 }
+
+.btnupdate:hover {
+  background: #fe469c !important;
+  color: white !important;
+}
+
+#pbutton:hover {
+  background: white !important;
+  color: #fe469c !important;
+  border: 2px solid #fe469c;
+}
